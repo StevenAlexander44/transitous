@@ -8,7 +8,7 @@
   "scripts": {
     "start": "spago build && esbuild ./output/TransitousWidget/index.js --bundle --outfile=static/widget.js --global-name=TransitousWidget && hugo server",
     "release-start": "spago build && purs-backend-es build && esbuild ./output-es/TransitousWidget/index.js --bundle --minify --outfile=static/widget.js --global-name=TransitousWidget && hugo --minify server",
-    "release": "spago build && purs-backend-es build && esbuild ./output-es/TransitousWidget/index.js --bundle --minify --outfile=static/widget.js --global-name=TransitousWidget && hugo --minify --baseURL https://transitous.org/"
+    "release": "spago build && purs-backend-es build && esbuild ./output-es/TransitousWidget/index.js --bundle --minify --outfile=static/widget.js --global-name=TransitousWidget && hugo --minify --baseURL https://stevenalexander44.github.io/transitous/"
   },
   "dependencies": {
     "esbuild": "^0.27.3",
